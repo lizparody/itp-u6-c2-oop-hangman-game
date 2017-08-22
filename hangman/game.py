@@ -30,6 +30,8 @@ class GuessWord(object):
             return GuessAttempt(character, hit=True)
         else:
             return GuessAttempt(character, miss=True)
+            
+        
 
             
 class HangmanGame(object):
